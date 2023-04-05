@@ -35,3 +35,4 @@ tgcrypto
 uvloop
 xattr
 yt-dlp
+oauth2client
