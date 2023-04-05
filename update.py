@@ -21,7 +21,7 @@ if len(BOT_TOKEN) == 0:
     log_error("BOT_TOKEN variable is missing! Exiting now")
     exit(1)
 bot_id = BOT_TOKEN.split(':', 1)[0]
-UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
+UPSTREAM_REPO = "https://github.com/drzlm/mirror-leech-telegram-bot"
 UPSTREAM_BRANCH = 'master'
 if UPSTREAM_REPO is not None:
     if ospath.exists('.git'):
